@@ -8,6 +8,7 @@ with app.app_context():
     Customer.query.delete()
     Review.query.delete()
     Item.query.delete()
+    Review.query.delete()
 
     customer1 = Customer(name='Tal Yuri')
     customer2 = Customer(name='Raha Rosario')
